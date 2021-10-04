@@ -1,0 +1,63 @@
+@media screen and (max-width:700px){
+    body .container{
+        margin-top:5%;
+    }
+    
+}
+
+body{
+    background-image: url(/media/background.jpg);
+    background-size: cover;
+}
+header .container{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding: 1%; 
+    
+}
+
+.login-butom{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+main .container{
+    margin-left: 30%;
+    margin-top: 10%;
+    max-width: 40%;
+    justify-content: center;
+}
+main .container .titulos{
+    font-size: 50px;
+    text-align: center;
+}
+main .container .sub-titulos{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.email{
+    margin-top: 1%;
+    padding: 2%;
+    width: 300px;
+    padding: 2%;
+    height: 50px;
+    
+}
+.butom{
+    padding: 2%;
+    width: 150px;
+    height: 50px;
+    color:white;
+    background: #e50914;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    
+   
+}
